@@ -1,0 +1,22 @@
+G³ownym pomys³em programu by³o funkcjionowanie automatyczne, z animacj¹ oraz mo¿liowœci¹ zarz¹dzania wyci¹giem.
+
+Program automatycnzie chowa nie potrzebne przyciski w danym momencie, oraz zmiena ich nazwy.
+
+Funkcjonowanie programu poza kurtyn¹ GUI polega na tworzeniu obiektów, które posiadaj¹ zapisany losowy kreator swoich pól, dziêki czemu wszystko dzieje siê automatycznie.
+
+Mo¿emy kupiæ bilet, którego cena przepisywana jest do ka¿dego z ewentualnych "klientów" , a wyokorzystywanie samych klas klientów jest równie¿ generowane automatycznie i losowo.
+
+
+Mo¿emy zaz¹dzaæ projektem zmieniaj¹c potrzebne wartoœci takie jak CENA GRANICA lub te¿ obecny na Wyci¹gu PRACOWNIK
+
+
+Wykorzystywanie Programu jest ukazywane w czêœci BAZA , gdzie to te¿ kreaowany jest log programu ca³y przebieg jego losowoœci w raz ze sta³ym do momentu zmiany PRACOWNIKIEM
+
+
+Dodatkowo ukazywana jest animacja która to wykorzystuje biblioteke Timer javy, dziêki czemu mo¿liwe jest opóŸnianie wygenerowanego tekstu, czy te¿ animacji w tym przypadku wykorzystuj¹ce zmianê Ikony klasy Jlabel  dziedzicz¹cej po klasie Swing
+
+Oczekuj¹c na bilet generowane jest losowe miejsce po³o¿enia wyci¹gu, imituj¹c jakoby jego ci¹gle dzia³anie
+
+Program zlicza tak¿e klikniecia zastosowane w programie dzieki czemu mo¿liwa jest interakcja przycisków w raz z stopniem w jakim to znajdujemy siê w programie. 
+
+W ka¿dek chwili mo¿emy zamkn¹æ program nacisk¹j¹c przycisk EXIT
